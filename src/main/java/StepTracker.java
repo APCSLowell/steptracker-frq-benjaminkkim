@@ -5,11 +5,13 @@ public class StepTracker {
   numSteps = steps;
  }
  public void addDailySteps(int n) {
-  n = steps;
+  int dailySteps = 0;
+  n += steps;
+  dailySteps++;
  }
  public int activeDays() {
   int totalDays = 0;
-  for(int i = 0; i < numSteps; i++) {
+  for(int i = 0; i < dailySteps; i++) {
    if(steps >= 10000) {
     totalDays++;
    }
