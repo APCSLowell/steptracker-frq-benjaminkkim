@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 public class StepTracker {
  int steps;
- public StepTracker(int num) {
-  num = steps;
+ public StepTracker(int numSteps) {
+  numSteps = steps;
  }
  public void addDailySteps(int n) {
   n = steps;
