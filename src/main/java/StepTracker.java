@@ -9,7 +9,7 @@ public class StepTracker {
  }
  public int activeDays() {
   int totalDays = 0;
-  for(int i = 0; i < num; i++) {
+  for(int i = 0; i < numSteps; i++) {
    if(steps >= 10000) {
     totalDays++;
    }
